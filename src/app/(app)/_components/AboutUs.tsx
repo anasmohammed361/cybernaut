@@ -9,22 +9,14 @@ const AboutUs = () => {
     <section className="space-y-20">
       <section className="max-w-screen-3xl mx-auto flex justify-between gap-24 font-poppins sm:container">
         <div className="flex basis-1/2 flex-col gap-5">
-          <h2 className="text-4xl font-black shadow-neutral-700 text-shadow">
+          <h2 className="text-4xl font-bold text-shadow">
             About Us
           </h2>
           <h5 className="text-4xl font-medium leading-[3.5rem]">
-            Pulthification Quote how different we are from others?
+          Spreading what we know to help others grow.
           </h5>
           <p className="text-sm">
-            Lorem ipsum dolor sit amet consectetur. Dui lacus purus commodo
-            lacus amet et. Pulvinar etiam sit nec nunc massa cursus. Sed eu arcu
-            risus ultrices porta. Id est integer et lectus. Lorem ipsum dolor
-            sit amet consectetur. Dui lacus purus commodo lacus amet et.
-            Pulvinar etiam sit nec nunc massa cursus. Sed eu arcu risus ultrices
-            porta. Id est integer et lectus.Lorem ipsum dolor sit amet
-            consectetur. Dui lacus purus commodo lacus amet et. Pulvinar etiam
-            sit nec nunc massa cursus. Sed eu arcu risus ultrices porta. Id est
-            integer et lectus.
+          At Cybernaut, we are passionate about revolutionizing education through innovative solutions and cutting-edge technology. Our mission is to bridge the gap between knowledge and growth by providing high-quality, affordable learning opportunities for all. With a dedicated team of expert industrial lecturers and a commitment to excellence, we offer premium courses, industry-grade internships, and innovative tech solutions to empower learners.
           </p>
           <div className="gridItems-center flex gap-4">
             <Button
@@ -78,7 +70,7 @@ const testimonials: { title: string }[] = [
     title: "cdsc",
   },
   {
-    title: "inno tech titans",
+    title: "innotech titans",
   },{
     title:"Webzenith Solutions"
   }
@@ -86,25 +78,25 @@ const testimonials: { title: string }[] = [
 
 const gridItems = [
   {
-    title: "2000+",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+    title: "20000+",
+    description: "Students Trained",
     className: "md:col-span-2",
   },
   {
     title: "5+",
-    description: "Dive into the transformative power of technology.",
+    description: "MOUs Signed",
     className: "md:col-span-1",
   },
   {
-    title: "5+",
-    description: "Discover the beauty of thoughtful and functional design.",
+    title: "50+",
+    description: "Students placed.",
 
     className: "md:col-span-1",
   },
   {
-    title: "500+",
+    title: "10000+",
     description:
-      "Understand the impact of effective communication in our lives.",
+      "Internships provided.",
 
     className: "md:col-span-2",
   },

@@ -15,8 +15,8 @@ const Placement = () => {
   return (
     <section className="container space-y-10 font-poppins">
      <div className="space-y-6">
-     <h3 className="font-bold text-4xl text-center">Out Placement Record</h3>
-      <p className="text-center mx-auto max-w-screen-md">Lorem ipsum dolor sit amet consectetur. Dui lacus purus commodo lacus amet et. Pulvinar etiam sit nec nunc massa cursus. </p>
+     <h3 className="font-bold text-4xl text-center">Our Placement Record</h3>
+      <p className="text-center mx-auto max-w-screen-md">Our proven track record in placements reflects our commitment to nurturing talent and bridging industry needs.</p>
      </div>
       <Card className="p-4">
         <Carousel

@@ -16,9 +16,7 @@ export const Hero = () => {
           Endeavour to explore
         </h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-          perferendis nihil est impedit reiciendis repellendus sint non sit quae
-          sunt.
+        From affordable courses to high-quality learning for everyone, we offer excellent courses, practical internships, and innovative tech solutions to help you gain valuable skills and knowledge. 
         </p>
         <div className="flex gap-8">
           <Button
