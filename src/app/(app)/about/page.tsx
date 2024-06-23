@@ -6,6 +6,7 @@ import WhatWeDo from "./_components/what-we-do";
 import MissionVision from "./_components/mission-vision";
 import Founders from "./_components/founders";
 import CoreValues from "./_components/core-values";
+import Programs from "./_components/programs";
 const page = () => {
   return (
     <main className="">
@@ -22,6 +23,7 @@ const page = () => {
           <MissionVision />
           <Founders/>
           <CoreValues/>
+          <Programs/>
         </section>
       </section>
     </main>

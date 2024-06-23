@@ -19,7 +19,7 @@ const AboutUs = () => {
             key={index}
             title={item.title}
             description={item.description}
-            className={cn(item.className)}
+            className={cn(item.className , "border-[#3e3e3e] border-[1px]")}
           />
         ))}
       </BentoGrid>
