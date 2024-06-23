@@ -4,7 +4,7 @@ import { Input } from '@/components/ui/input'
 import { Checkbox } from '@/components/ui/checkbox'
 import { Button } from '@/components/ui/button'
 
-const ContactForm = ({ title, desc }: { title: string, desc: "Connect with us and unlock new opportunities! Fill out our 'Let's Connect' form to start a conversation today." }) => {
+const ContactForm = ({ title, desc }: { title: string, desc: string }) => {
 
   return (
     <div className='flex flex-col gap-4 p-10 lg:p-16 xl:p-28'>
