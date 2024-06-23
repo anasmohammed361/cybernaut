@@ -5,7 +5,7 @@ import Connect from "./_components/Connect";
 import Footer from "./_components/Footer";
 
 import { Hero } from "./_components/Hero";
-import Navbar from "./_components/Navbar";
+
 import Placement from "./_components/Placement";
 import Events from "./_components/Events";
 import Programs from "./_components/Programs";
@@ -18,10 +18,7 @@ const Home = () => {
   return (
     <>
       <main className="h-full space-y-24">
-        <div className="bg-[#f5f5f5] pb-32">
-          <div className=" pt-4">
-            <Navbar />
-          </div>
+        <div className="pb-32">
           <Hero />
         </div>
         <Collobarators />
@@ -36,7 +33,7 @@ const Home = () => {
         </div>
         <div className="mx-auto max-w-screen-2xl space-y-28 pb-10 sm:container">
           <Events />
-          <Cynics />
+          {/* <Cynics /> */}
           <Programs />
         </div>
         <div className="space-y-56 bg-[#f5f5f5] py-28 ">

@@ -7,6 +7,7 @@ import {
 } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import Navbar from "./_components/Navbar";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -48,6 +49,9 @@ export default function RootLayout({
           poppins.variable
         )}
       >
+        <div className=" pt-4">
+          <Navbar />
+        </div>
         {children}
       </body>
     </html>
